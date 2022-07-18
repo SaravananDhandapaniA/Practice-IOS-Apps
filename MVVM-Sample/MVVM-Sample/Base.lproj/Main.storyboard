@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MVVM_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cCe-Wy-fTY">
+                                <rect key="frame" x="20" y="201" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sG6-zC-D2S">
+                                <rect key="frame" x="20" y="243" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Month" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dpD-7q-6J9">
+                                <rect key="frame" x="20" y="285" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Year" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DAf-fS-hLP">
+                                <rect key="frame" x="20" y="327" width="374" height="34"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rey-wS-sMs">
+                                <rect key="frame" x="20" y="369" width="374" height="31"/>
+                                <color key="backgroundColor" red="0.1662977584" green="0.17168157519999999" blue="0.76942896839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Calculate"/>
+                                <connections>
+                                    <action selector="calulateButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cii-d1-eTX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rey-wS-sMs" firstAttribute="top" secondItem="DAf-fS-hLP" secondAttribute="bottom" constant="8" symbolic="YES" id="8Zb-Fa-8cx"/>
+                            <constraint firstItem="DAf-fS-hLP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="327" id="8h9-Gg-uUQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cCe-Wy-fTY" secondAttribute="trailing" constant="20" id="DWG-C9-FFV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DAf-fS-hLP" secondAttribute="trailing" constant="20" id="E3P-ro-HoU"/>
+                            <constraint firstItem="dpD-7q-6J9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="JcQ-hM-ozl"/>
+                            <constraint firstItem="cCe-Wy-fTY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Nap-0I-fWL"/>
+                            <constraint firstItem="DAf-fS-hLP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Tgj-rl-9Mj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sG6-zC-D2S" secondAttribute="trailing" constant="20" id="Z4A-qz-AcH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rey-wS-sMs" secondAttribute="trailing" constant="20" id="jfc-04-CDT"/>
+                            <constraint firstItem="dpD-7q-6J9" firstAttribute="top" secondItem="sG6-zC-D2S" secondAttribute="bottom" constant="8" symbolic="YES" id="liF-yo-e0i"/>
+                            <constraint firstItem="sG6-zC-D2S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="m4S-p7-LkD"/>
+                            <constraint firstItem="rey-wS-sMs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pQN-pg-Ohm"/>
+                            <constraint firstItem="sG6-zC-D2S" firstAttribute="top" secondItem="cCe-Wy-fTY" secondAttribute="bottom" constant="8" symbolic="YES" id="usG-dO-Zjz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dpD-7q-6J9" secondAttribute="trailing" constant="20" id="x6F-t7-mp9"/>
+                            <constraint firstItem="DAf-fS-hLP" firstAttribute="top" secondItem="dpD-7q-6J9" secondAttribute="bottom" constant="8" symbolic="YES" id="yzt-Lo-ANf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateField" destination="sG6-zC-D2S" id="YGS-xR-4TS"/>
+                        <outlet property="monthField" destination="dpD-7q-6J9" id="DXY-DX-hQE"/>
+                        <outlet property="nameField" destination="cCe-Wy-fTY" id="Rg9-ar-YQk"/>
+                        <outlet property="yearField" destination="DAf-fS-hLP" id="r62-WO-jZ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
