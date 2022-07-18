@@ -1,0 +1,51 @@
+{
+    
+    "Cricket":[
+        {
+            "name":"Virat Kohli",
+            "country":"India",
+            "role":"Batsman",
+            "id":"1"
+        },
+        {
+            "name":"ABD Villers",
+            "country":"South Africa",
+            "role":"Batsman",
+            "id":"2"
+        },
+        {
+            "name":"Gayle",
+            "country":"WestIndies",
+            "role":"Batsman",
+            "id":"3"
+        },
+        {
+            "name":"MS Dhoni",
+            "country":"India",
+            "role":"Bat/Keeper",
+            "id":"4"
+        }
+    ],
+    
+    "Football":[
+        {
+            "name":"Messi",
+            "country":"FC Barcalona",
+            "role":"Forward",
+            "id":"1"
+        },
+        {
+            "name":"Ronaldo",
+            "country":"Real mandrid",
+            "role":"Forward",
+            "id":"2"
+        },
+        {
+            "name":"Neymar",
+            "country":"Real mandrid",
+            "role":"Mid Field",
+            "id":"3"
+        }
+    ],
+    
+}

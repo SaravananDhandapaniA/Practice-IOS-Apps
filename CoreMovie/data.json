@@ -1,0 +1,31 @@
+[
+    
+    {
+        "title":"Spider-Man",
+        "release_date": "2021-12-15",
+        "vote_average": 8.2,
+        "vote_count": 10923,
+        "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "overview": "Action/Drama",
+        "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+    },
+    {
+        "title":"Turning Red",
+        "release_date": "2021-12-10",
+        "vote_average": 7.5,
+        "vote_count": 1374,
+        "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+        "overview": "Drama",
+        "backdrop_path": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+    },
+    {
+        "title":"Encanto",
+        "release_date": "2021-11-24",
+        "vote_average": 7.7,
+        "vote_count": 5819,
+        "poster_path": "/4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
+        "overview": "Drama",
+        "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
+    }
+    
+]
