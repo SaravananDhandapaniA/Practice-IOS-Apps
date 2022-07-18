@@ -1,0 +1,64 @@
+{
+    "data1":[
+        {
+        "title":"Fruits",
+        "items":[
+            {
+                "Name":"Apple",
+                "No.of.Kg":"12",
+                "Vitamin":"C"
+            },
+            {
+                "Name":"Orange",
+                "No.of.Kg":"20",
+                "Vitamin":"C"
+            },
+            {
+                "Name":"Mango",
+                "No.of.Kg":"50",
+                "Vitamin":"A"
+            }
+            ]
+        },
+        {
+            "title":"Cricketer",
+            "items":[
+                {
+                    "Name":"Virat",
+                    "Country":"India",
+                    "Role":"Batsman"
+                },
+                {
+                    "Name":"ABD Villers",
+                    "Country":"South Africa",
+                    "Role":"Batsman/Keeper"
+                },
+                {
+                    "Name":"Michel Stack",
+                    "Country":"Australia",
+                    "Role":"Bowler"
+                }
+                ]
+        },
+        {
+            "title":"Games",
+            "items":[
+                {
+                    "Name":"Pubg",
+                    "Storage":"2GB",
+                    "Rank":"1"
+                },
+                {
+                    "Name":"FreeFire",
+                    "Storage":"550MB",
+                    "Rank":"3"
+                },
+                {
+                    "Name":"Clash of Clans",
+                    "Storage":"1.5GB",
+                    "Rank":"2"
+                },
+            ]
+        }
+    ]
+}

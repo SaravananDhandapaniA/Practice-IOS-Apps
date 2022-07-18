@@ -1,0 +1,40 @@
+{
+    "data":[
+            {
+                        "title":"Games",
+                        "items":[
+                            "Pubg",
+                            "Subway Surfer",
+                            "Freefire",
+                            "Clash of Clans",
+                            "Clash Royals",
+                            "Score Hero",
+                            "Carrom Pool"
+                        ]
+                    },
+                    {
+                        "title":"Movies",
+                        "items":[
+                            "Harry Pottor",
+                            "Pirets of the Carabien",
+                            "Avengers",
+                            "Jungle Book",
+                            "Terminator",
+                            "Spiderman",
+                            "Captain America"
+                        ]
+                    },
+                    {
+                        "title":" Sports Celebrity",
+                        "items":[
+                            "Virat Kohli",
+                            "MS Dhoni",
+                            "Cristiano Ronaldo",
+                            "Lionel Messi",
+                            "Sachin Tendulkar",
+                            "Neymar",
+                            "Sania Mirza"
+                        ]
+                    },
+    ]
+}
