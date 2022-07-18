@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Virat Kohli",
+        "country":"India",
+        "role":"Batsman",
+        "id":1,
+       
+    },
+    {
+        "name":"ABD Villers",
+        "country":"South Africa",
+        "role":"Batsman",
+        "id":2,
+        
+    },
+    {
+        "name":"Gayle",
+        "country":"West Indies",
+        "role":"Batsman",
+        "id":3,
+       
+    },
+    {
+        "name":"MS Dhoni",
+        "country":"India",
+        "role":"Batsman",
+        "id":4,
+    },
+    {
+        "name":"Neymar",
+        "country":"FC Barcelona",
+        "role":"Mid Field",
+        "id":5,
+    },
+    {
+        "name":"Ronaldo",
+        "country":"Real Mandrid",
+        "role":"Forward",
+        "id":6,
+    },
+    {
+        "name":"Messi",
+        "country":"FC Barcelona",
+        "role":"Forward",
+        "id":7,
+    },
+    {
+            "name":"Ravi Ashwin",
+            "country":"India",
+            "role":"Allrounder",
+            "id":8,
+    },
+    {
+        "name":"Sachin",
+        "country":"India",
+        "role":"Batsman",
+        "id":9,
+    }
+]
