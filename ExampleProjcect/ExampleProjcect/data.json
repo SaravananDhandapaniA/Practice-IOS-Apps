@@ -1,0 +1,60 @@
+{
+    "status":"ok",
+    "totalResult": 70,
+    "data":{
+        "meta":{
+            "path":"",
+            "url":""
+        },
+        "article":[
+            {
+                "kind": "Cricket",
+                "score" : 8 ,
+                "source": {
+                "id": "sara",
+                "name": "saravanan"
+                },
+                "sport": "Cricket",
+                "team": "RCB",
+                "desc": "Allrounder",
+                "rating": 8
+            },
+            {
+                "kind":"CC",
+                "source": {
+                "id": "maha",
+                "name": "mahalingam"
+                },
+                "sport": "Cricket",
+                "team": "CSK",
+                "desc": "Batsman",
+                "rating": 7
+            },
+            {
+                "kind":"Volleyball",
+                "point": 23,
+                "source": {
+                "id": "pra",
+                "name": "praveen"
+                },
+                "sport": "Volleyball",
+                "team": "Strikers",
+                "desc": "Shutter",
+                "rating": 6
+            },
+            {
+                "kind":"Football",
+                "goal" : 2,
+                "source": {
+                "id": "kish",
+                "name": "kishor"
+                },
+                "sport": "Football",
+                "team": "FCB",
+                "desc": "Forward",
+                "rating": 7
+            }
+        ]
+    }
+    
+}
